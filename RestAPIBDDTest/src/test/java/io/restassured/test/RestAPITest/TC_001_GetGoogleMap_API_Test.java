@@ -28,7 +28,10 @@ public class TC_001_GetGoogleMap_API_Test extends BaseClass {
 		JsonPath data = ResponseConverter.rawToJSON(res);
 		System.out.println(data.get("results[0].title"));
 
-		
-		
+		int result = data.get("results.size()");
+		for (int i = 0; i < result; i++) {
+			System.out.println(data.get("results["+i+"].title"));
+			
+		}
 	}
 }
