@@ -5,7 +5,7 @@
     <classes>
       <class name="io.restassured.test.RestAPITest.TC_001_GetGoogleMap_API_Test">
         <methods>
-          <include name="searchWeather"/>
+          <include name="homoSearch"/>
         </methods>
       </class> <!-- io.restassured.test.RestAPITest.TC_001_GetGoogleMap_API_Test -->
     </classes>
